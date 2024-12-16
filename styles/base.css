@@ -1,0 +1,104 @@
+header{
+    text-align: center;
+    background-color: #1F5573;
+    padding: 10px 0px;
+    margin: 1px;
+    
+}
+header h1{
+    color: aliceblue;
+    font-size: 45px;
+}
+header nav{
+    background-color: black;
+    font-size:25px;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+}
+nav a{
+    margin: 100px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    white-space:nowrap;
+    color: rgb(155, 154, 154);
+}
+
+nav a:visited{
+    color: aquamarine;
+}
+nav a:hover{
+    color: yellow;
+}
+main section{
+    font-size: 25px;
+}
+.main-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 1px;
+}
+section h2{
+    background-color: #1F5573;
+    color: white;
+    
+}
+.bio-container{
+    display: flex;
+    margin: 1%;
+    padding: 20px;
+    border: 3px solid #ccc; 
+    border-radius: 20px; 
+    background-color: #f9f9f9; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    flex-direction: column;
+    flex: 1;
+    font-size: 23px;
+
+}
+.bio-img{
+    display: flex;
+    justify-content: end;
+    margin-top: 1px;
+}
+.mex-img {
+    width: 250px; 
+    height: 150px;
+    object-fit: cover; 
+    margin-right: 20px;
+}
+main aside{
+    display: flex;
+    justify-content: right;
+    margin: 1%;
+    padding: 20px;
+    border-radius: 20px; 
+    border: 2px solid #ccc; 
+    background-color: #f9f9f9; 
+    flex-direction:column;
+    flex: 1;
+}
+main h3{
+    background-color: #1F5573;
+    color: white;
+    font-size: 35px;
+    margin: 2px;
+}
+main li{
+    font-size: 20px;
+    align-items: center;
+}
+footer{
+    background-color: #1F5573;
+
+}
+footer p{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0px;
+    margin: 1px;
+    
+}
