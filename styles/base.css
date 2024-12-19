@@ -102,4 +102,7 @@ footer p{
     margin: 1px;
     
 }
-/* hello */
+.list li{
+    font-size: 1.8rem;
+    list-style: none;
+}
