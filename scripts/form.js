@@ -1,6 +1,6 @@
 // review.js: JavaScript for Review Confirmation Page
 document.addEventListener("DOMContentLoaded", () => {
-    // Incrementar y mostrar el contador de reseñas
+    
     const counterKey = "reviewCounter";
     const reviewCounterElement = document.getElementById("review-counter");
 
@@ -10,10 +10,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
     reviewCounterElement.textContent = reviewCount;
 
-    // Capturar parámetros de la URL
+    
     const urlParams = new URLSearchParams(window.location.search);
 
-    // Asignar valores de parámetros a los elementos de la página
+    
     document.getElementById("submitted-product-name").textContent = urlParams.get("product-name") || "N/A";
     document.getElementById("submitted-rating").textContent = urlParams.get("rating") || "N/A";
     document.getElementById("submitted-installation-date").textContent = urlParams.get("installation-date") || "N/A";
