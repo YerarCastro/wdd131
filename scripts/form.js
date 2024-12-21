@@ -1,7 +1,7 @@
 // review.js: JavaScript for Review Confirmation Page
 
 document.addEventListener("DOMContentLoaded", () => {
-    // Increment and display the review counter using localStorage
+    
     const counterKey = "reviewCounter";
     const reviewCounterElement = document.getElementById("review-counter");
 
@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     reviewCounterElement.textContent = reviewCount;
 
-    // Display submitted details from URL parameters
+    
     const urlParams = new URLSearchParams(window.location.search);
 
     const productName = urlParams.get("product-name") || "N/A";
@@ -42,10 +42,10 @@ document.addEventListener("DOMContentLoaded", () => {
         const selectedProduct = productSelect.options[productSelect.selectedIndex].text;
         const features = productFeatures[selectedProduct] || [];
 
-        // Clear existing features
+        
         featuresContainer.innerHTML = "";
 
-        // Add features dynamically
+        
         features.forEach((feature, index) => {
             const checkbox = document.createElement("input");
             checkbox.type = "checkbox";
